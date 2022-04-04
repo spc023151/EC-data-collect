@@ -9,12 +9,16 @@ data backend engineer interview
 2. 每週資料更新
 3. API提供資料撈取服務
 
+### 架構圖
+![Architecture](https://github.com/spc023151/EC-data-collect/blob/main/shopee.jpg)
+
 ### 實作內容
 * 1.資料取得
   * 爬蟲 - main/ruten_crawler.py
 * 2.資料儲存
   * 關聯式資料庫 - PostgreSql
-  * 資料表設計
+  * 資料表設計  
+![Architecture](https://github.com/spc023151/EC-data-collect/blob/main/postgresql.JPG)  
 * 3.資料處理
   * a. SQL
   * b. Pandas
@@ -23,6 +27,7 @@ data backend engineer interview
   * b. 使用 FastAPI / Flask 實作
 * 5.程式部署
   * a. Docker - main/dockerfile
+![Architecture](https://github.com/spc023151/EC-data-collect/blob/main/docker.JPG)  
 * 6.程式碼管理
   * a. GitHub
 
