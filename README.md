@@ -62,7 +62,7 @@ data backend engineer interview
 > > ` docekr安裝於windows有非常多虛擬化設定要啟用，前置設定步驟多，打包時發生package找不到版本問題多次嘗試更改Python、套件版本才解決`
 
 4.服務應用
-> > * 簡單設計2種fastAPI以提供商品資料  
+> > * 簡單設計2種fastAPI以提供商品資料(未設計支付及貨運方式資料提供API)  
 > >     1. 網頁帶入商品id回傳單一或多個商品資訊 /item/123456789,12354789  
 > >     2. 帶參數回傳多個商品資訊 /item?offset=1&limit=10  
 > >     
