@@ -94,4 +94,4 @@ wincertstore==0.2
 wrapt==1.11.2
 zipp==3.8.0
 lxml==4.8.0
-psycopg2==2.9.3
+psycopg2==2.9.

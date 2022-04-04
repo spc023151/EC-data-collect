@@ -109,7 +109,7 @@ if __name__=='__main__':
 
     engine = create_engine('postgresql://postgres:{}@{}:5432/ruten'.format(passwd, dbhost))
 
-    df.to_sql("iten_detail", engine, index=False, if_exists="replace")
+    df.to_sql("item_detail", engine, index=False, if_exists="replace")
     df2.to_sql("othersource", engine, index=False, if_exists="replace")
 
 
